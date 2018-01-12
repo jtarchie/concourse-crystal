@@ -1,0 +1,20 @@
+name: concourse
+version: 0.1.0
+
+authors:
+  - JT Archie <jtarchie@gmail.com>
+
+targets:
+  concourse:
+    main: src/concourse.cr
+
+crystal: 0.24.1
+
+dependencies:
+  clim:
+    github: at-grandpa/clim
+    version: 0.1.5
+  core:
+    github: vladfaust/core.cr
+
+license: MIT
